@@ -8,10 +8,10 @@ Unit testing for flutter in Docker. See the detail section about『[Introduction
 
 ## How to use
 
-download the docker image:
+download the docker image: `1.0.0` for flutter 1.0.0 stable version.
 
 ```
-$ docker pull appleboy/flutter-docker
+$ docker pull appleboy/flutter-docker:1.0.0
 ```
 
 Download your flutter app source code.
@@ -19,7 +19,7 @@ Download your flutter app source code.
 ```
 $ git clone https://github.com/appleboy/flutter-demo.git
 $ docker run -ti -v ${PWD}/flutter-demo:/flutter-demo -w /flutter-demo \
-  appleboy/flutter-docker \
+  appleboy/flutter-docker:1.0.0 \
   /bin/sh -c "flutter test"
 ```
 
