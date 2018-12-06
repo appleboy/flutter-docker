@@ -1,0 +1,18 @@
+kind: pipeline
+name: docker
+
+steps:
+- name: publish
+  image: plugins/docker:17.12
+  settings:
+    repo: appleboy/flutter-docker
+    auto_tag: true
+    dockerfile: Dockerfile
+    username:
+      from_secret: docker_username
+    password:
+      from_secret: docker_password
+  when:
+    event:
+    - push
+    - tag
