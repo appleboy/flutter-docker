@@ -4,7 +4,7 @@
 [![Build Status](https://cloud.drone.io/api/badges/appleboy/flutter-docker/status.svg)](https://cloud.drone.io/appleboy/flutter-docker)
 
 
-Unit testing for flutter in Docker. See the detail section about『[Introduction to unit testing](https://flutter.io/docs/cookbook/testing/unit)』.
+Unit testing for flutter in Docker. See the detail section about『[Introduction to unit testing](https://flutter.dev/docs/cookbook/testing/unit)』.
 
 ## How to use
 
